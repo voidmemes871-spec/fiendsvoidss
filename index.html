@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #556b2f; /* Verde olivo */
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #6b8e23;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Efecto desintegración */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: radial-gradient(circle, rgba(85,107,47,0) 40%, rgba(85,107,47,0.8) 100%);
+            pointer-events: none;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #dcdcdc;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .socials {
+            margin-top: 10px;
+        }
+
+        .socials a {
+            color: #fff;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        /* Espacios para anuncios */
+        .ads {
+            background: #8fbc8f;
+            color: #333;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #6b8e23;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EL SITIO DE LOS VOIDMEMES</h1>
+    </header>
+
+    <section>
+        <h2>Sobre Nosotros</h2>
+        <p>Encuentrame en mis redes para estar al dia..</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/soy_benitezzz" target="_blank">Instagram: @soy_benitezzz</a>
+            <a href="https://www.tiktok.com/@benitez_alv" target="_blank">TikTok: @benitez_alv</a>
+        </div>
+
+        <div class="ads">
+            <!-- Espacio para Google AdSense -->
+            
+        </div>
+
+        <div class="ads">
+            <!-- Otro espacio para Google AdSense -->
+            
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Mi Sitio Web
+    </footer>
+</body>
+</html>
